@@ -30,6 +30,6 @@ llm_chain = LLMChain(prompt=prompt,
                      )
 
 # question = "What is the capital of India?"
-question = "Name some battle royal games list?"
+question = "Answer the following yes/no question by reasoning step-by-step. Can you write a whole Haiku in a single tweet?"
 
 print(llm_chain.run(question))
