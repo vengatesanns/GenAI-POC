@@ -14,6 +14,7 @@ https://python.langchain.com/docs/get_started/quickstart
 pip install langchain
 pip install openai
 pip install huggingface_hub transformers accelerate bitsandbytes
+pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu121
 ```
 
 
