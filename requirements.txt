@@ -1,0 +1,8 @@
+chainlit
+python-dotenv
+chromadb
+sentence_transformers
+unstructured
+pypdf
+ctransformers
+Markdown
