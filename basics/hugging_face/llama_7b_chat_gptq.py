@@ -1,7 +1,7 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
-# model_name_or_path = "TheBloke/Llama-2-7b-Chat-GPTQ"
-model_name_or_path = "TheBloke/Llama-2-13b-Chat-GPTQ"
+model_name_or_path = "TheBloke/Llama-2-7b-Chat-GPTQ"
+# model_name_or_path = "TheBloke/Llama-2-13b-Chat-GPTQ"
 
 model = AutoModelForCausalLM.from_pretrained(model_name_or_path,
                                              device_map="auto",

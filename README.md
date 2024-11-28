@@ -15,6 +15,8 @@ pip install langchain
 pip install openai
 pip install huggingface_hub transformers accelerate bitsandbytes
 pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu121
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+huggingface-cli login
 ```
 
 

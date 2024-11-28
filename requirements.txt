@@ -6,3 +6,7 @@ unstructured
 pypdf
 ctransformers
 Markdown
+langchain
+pandas
+openpyxl
+huggingface_hub
